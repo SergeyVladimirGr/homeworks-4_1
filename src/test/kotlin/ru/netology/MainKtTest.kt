@@ -11,7 +11,7 @@ class MainKtTest {
         // arrange
         val amountInKop = 75_000_00
         val cardType = CardType.MasterCard
-        val amountTransfersMonth = 601_000_00
+        val amountTransfersMonth = 600_000_00
         val expectedCommission = "Комиссия составила $ZERO_COMMISSION руб."
         // act
         val actualCommission = commission(amountInKop, cardType, amountTransfersMonth)
